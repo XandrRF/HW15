@@ -5,5 +5,21 @@ public class Main {
     // Коды даны для примера и не соответствуют действительности. Учитывайте, что нужно распечатать коды букв в двух регистрах!
     public static void main(String[] args) {
         //todo код писать тут
+        String alphabet = "абвгдеёжзийклмнопрстуфхцчшщъыьэюя";
+
+        for (int i = 0; i < alphabet.length(); i++) {
+            System.out.println(alphabet.charAt(i) + " - " + (int)alphabet.charAt(i));
+        }
+
+        System.out.println("+++++++++++++++++++++++++++++++++++++");
+
+        alphabet = alphabet.toUpperCase();
+
+
+        for (int i = 0; i < alphabet.length(); i++) {
+            System.out.println(alphabet.charAt(i) + " - " + (int)alphabet.charAt(i));
+        }
+
+
     }
 }
